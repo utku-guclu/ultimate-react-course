@@ -5,7 +5,7 @@ import Header from "./Header";
 import styled from "styled-components";
 
 const Main = styled("main")(() => ({
-    backgroundColor: "green",
+    backgroundColor: "var(--color-grey-50)",
     padding: "4rem 4.8rem 6.4rem",
 }));
 
