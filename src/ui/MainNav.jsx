@@ -55,31 +55,31 @@ function MainNav() {
         <nav>
             <NavList>
                 <li>
-                    <StyledNavLink href="/dashboard">
+                    <StyledNavLink to="/dashboard">
                         <FcHome />
                         <span>Home</span>
                     </StyledNavLink>
                 </li>
                 <li>
-                    <StyledNavLink href="/bookings">
+                    <StyledNavLink to="/bookings">
                         <FcCalendar />
                         <span>Bookings</span>
                     </StyledNavLink>
                 </li>
                 <li>
-                    <StyledNavLink href="/cabins">
+                    <StyledNavLink to="/cabins">
                         <BiSolidCabinet />
                         <span>Cabins</span>
                     </StyledNavLink>
                 </li>
                 <li>
-                    <StyledNavLink href="/users">
+                    <StyledNavLink to="/users">
                         <FaUsers />
                         <span>Users</span>
                     </StyledNavLink>
                 </li>
                 <li>
-                    <StyledNavLink href="/settings">
+                    <StyledNavLink to="/settings">
                         <FcSettings />
                         <span>Settings</span>
                     </StyledNavLink>
